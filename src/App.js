@@ -17,7 +17,7 @@ function App() {
 
 
   const submitForm = () => {
-
+    
   }
 
   const changeForm = () => {
@@ -32,7 +32,7 @@ function App() {
   return (
     <div className="App">
       <h2>Hello World!</h2>
-      <HeroGenerator values={formValues}/>
+      <HeroGenerator values={formValues} />
     </div>
   );
 }
